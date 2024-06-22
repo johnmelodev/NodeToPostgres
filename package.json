@@ -7,5 +7,12 @@
   },
   "author": "Joao Melo",
   "license": "ISC",
-  "description": "instructions to connect node to PostgresSQL"
+  "description": "instructions to connect node to PostgresSQL",
+  "dependencies": {
+    "pg": "^8.12.0",
+    "sequelize": "^6.37.3"
+  },
+  "devDependencies": {
+    "sequelize-cli": "^6.6.2"
+  }
 }

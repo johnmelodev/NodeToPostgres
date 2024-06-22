@@ -1,0 +1,5 @@
+npx sequelize-cli seed:generate --name demo-user: Este comando gera um novo arquivo de seed com o nome demo-user. Você pode preencher este arquivo com o código para inserir dados no banco de dados.
+
+npx sequelize-cli db:seed:all: Este comando executa todos os arquivos de seed na ordem em que foram gerados. Isso irá inserir os dados definidos nos arquivos de seed no banco de dados.
+
+npx sequelize-cli db:seed:undo: Este comando desfaz a operação de seed mais recente. Se você executou vários seeds, este comando irá desfazer o último.
