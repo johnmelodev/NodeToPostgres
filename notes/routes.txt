@@ -1,0 +1,19 @@
+1- create index.js
+
+2- create models/user.js
+
+3- config/database.js
+
+4- configure connection and errors to index.js
+
+5- Realize um CRUD com as 4 funcoes Post, Get, Put, Delete
+
+6- implementar uma associacao no sequelize
+
+7- ver o environment e fazer os npx
+configurar o file migrations
+
+8- apos ajustar o codigo no migrations/20240622183653-create-users
+para aplicar a migracao
+crie uma file na pasta config nome do arquivo config/config.json
+execute o comando npx sequelize db:migrate

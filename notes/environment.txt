@@ -1,0 +1,14 @@
+npm init
+npm install sequelize pg
+
+npm install --save-dev sequelize-cli
+
+npx sequelize-cli init
+configurar index no package.json
+
+conexão com o banco de dados no arquivo gerado na pasta ‘config’ config/database.js
+
+crie uma pasta chamada migrations
+npx sequelize migration:generate --name create-users
+
+

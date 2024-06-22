@@ -1,0 +1,11 @@
+{
+  "name": "nodetopostgres",
+  "version": "1.0.0",
+  "main": "models/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Joao Melo",
+  "license": "ISC",
+  "description": "instructions to connect node to PostgresSQL"
+}
